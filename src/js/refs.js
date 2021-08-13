@@ -1,0 +1,16 @@
+export const refsS = {
+  form: document.querySelector('.js-search-form'),
+  input: document.querySelector('.form-el--control'),
+  BASE_URL: 'https://restcountries.eu/rest/v2',
+  resultPromise: null,
+  statesContainer: document.querySelector('.js-state-container'),
+  clearBtn: document.querySelector('.search-btn'),
+  resultTitle: document.querySelector('.js-title'),
+  modal: document.querySelector('.js-modal'),
+  modalContent: document.querySelector('.modal__content'),
+  modalCloser: document.querySelector('button[data-action="close-modal"]'),
+  modalOverlay: document.querySelector('.modal__overlay'),
+  pnotifyOverlay: document.querySelector('.pnotify-overlay'),
+  queryValue: '',
+  arrLength: 0,
+}

@@ -1,0 +1,9 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+@import './base/base';
+@import './components/form-input';
+@import './components/section-states';
+@import './components/modal';
+@import './components/pnotify-style';

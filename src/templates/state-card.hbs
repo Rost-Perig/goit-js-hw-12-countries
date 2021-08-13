@@ -1,0 +1,24 @@
+
+<div class="state-card">
+    
+   <h1 class="title">{{name}}</h1>
+
+<div class="state-card__item">
+    <div>
+        <p class="card__text">CAPITAL:</p>
+        <p class="card__text card__text--data">{{capital}}</p>
+        <p class="card__text card__text--in">POPULATION:</p>
+        <p class="card__text card__text--data">{{population}}</p>
+        <p class="card__text card__text--in">LANGUAGES: </p>
+        <ul class="card__list">
+            {{#each this.languages}}
+            <li>{{name}}</li>
+            {{/each}}
+        </ul> 
+    </div>
+    <img src="{{flag}}" alt="{{name}}" class="state-card__image" />   
+</div>
+
+</div>
+
+

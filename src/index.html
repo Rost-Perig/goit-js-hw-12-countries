@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Homework 12</title>
+  </head>
+  <body>
+
+    <h1 class="title">HW-12: Catch the state</h1>
+
+    <form class="form-inline search-form js-search-form">
+        <input type="text" id="text" class="form-el form-el--control" name="query" />
+        <button type="submit" class="btn search-btn form-el">CLEAR</button>
+    </form>
+
+    <div class="title js-title"></div>
+
+    <div class="state-container js-state-container"></div>
+
+    <div class="modal js-modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__content"></div>
+      <button type="button" class="modal__button" data-action="close-modal"></button>
+    </div>
+    <div class="pnotify-overlay"></div>
+    
+    <script src="./index.js"></script>
+  </body>
+</html>

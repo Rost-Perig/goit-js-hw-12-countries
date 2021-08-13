@@ -1,0 +1,27 @@
+.form-inline {
+  display: flex;
+  justify-content: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 32px;
+}
+
+.form-el {
+  color: var(--main-color);
+  background-color: var(--active-bg-color);
+  border-radius: 6px;
+  border-color: var(--main-color);
+}
+
+.form-el--control {
+  max-width: 300px;
+  padding-left: 10px;
+  outline: var(--main-color);
+  margin-right: 15px;
+}
+
+.search-btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: large;
+}
